@@ -1,0 +1,475 @@
+#label{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    background-color: blanchedalmond;
+    width: 18vw;
+    height: 2vw;
+    border-radius: 50px;
+    padding-top: 0.5vw;
+    margin-top: 7vw;
+    margin-left: 40.60vw;
+    
+
+}
+#creative{
+    margin-top: 2.25vw;
+    font-size: 6.5vw;
+    color: rgb(2, 2, 54);
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 900;
+
+}
+
+#professional{
+    font-size: 6.5vw;
+    color: rgb(242, 122, 78);
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 900;
+}
+
+#crafting_exceptional{
+    font-family: "Roboto", sans-serif;
+    height: 10vw;
+    width: 54vw;
+    text-align: center;
+    margin-left: 23vw;
+    margin-top: 2vw;
+    font-size: 1.75vw;
+    color: grey;
+}
+
+#projects{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.25vw;
+    width: 11vw;
+    height: 3.2vw;
+    border: none;
+    background-color: rgb(242, 122, 78);
+    color: white;
+    border-radius: 8px;
+    margin-left: 37vw;
+}
+
+#projects:hover{
+    background-color: rgba(242, 122, 78,0.9);
+    cursor: pointer;
+}
+
+#contact{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.25vw;
+    width: 11vw;
+    height: 3.2vw;
+    border: silver solid 1.4px;
+    background-color: transparent;
+    color: black;
+    border-radius: 8px;
+    margin-left: 1.5vw;
+    transition: transform 0.3s ease-out;
+}
+
+#contact:hover{
+    background-color: rgba(242, 122, 78,0.9) ;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#big-container{
+    margin-top: 10vw;
+    height: 70vw;
+    width: 100%;;
+    background-color: rgb(245, 245, 250);
+    margin-bottom: 4.5vw;
+    
+}
+
+#about-me{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4vw;;
+    color: rgb(2, 2, 54);
+    text-align: center;
+    padding-top: 5vw;
+}
+
+#small-container{
+    margin-top: 2vw;
+    height: 45vw;
+    width: 45vw;
+    background: linear-gradient(135deg, orange,pink);
+    margin-left: 2vw;
+    border-radius: 2vw;
+    display: inline-block;
+
+}
+
+#profile{
+    height: 20vw;
+    width: 20vw;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 12vw;
+    margin-top: 12vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    align-items: center;
+    animation: float_my_circle 7s  ease-in-out 1s infinite;
+}
+
+@keyframes float_my_circle {
+    0% { transform: translatey(0px); }
+    50% { transform: translatey(-15px); }
+    100% { transform: translatey(0px); }
+
+}
+
+#text-container{
+    display: inline-block;
+    vertical-align: top;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+#p-heading{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.25vw;
+    color: rgb(2, 2, 54);
+    margin-bottom: 1vw;
+    margin-top: 5vw;
+}
+#p-content{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.35vw;
+    color: grey;
+    line-height: 2.2vw;
+}
+
+#SnE{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4vw;;
+    color: rgb(2, 2, 54);
+    text-align: center;
+    margin-top: 8vw;
+    width: 100%;
+}
+
+#container {
+  margin-top: 3vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100vw;
+}
+
+.box {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 16.5vw;
+    width: 40vw;
+    background-color: white;
+    border: whitesmoke solid 0.2vw;
+    border-radius: 1.5vw;
+}
+
+#box-1,#box-2, #box-3 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#box-1:hover, #box-2:hover, #box-3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#icon   {
+    font-size: 3.5vw;
+    padding-left: 1.5vw;
+    padding-top: 1.5vw;
+}
+
+.box-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6vw;
+    color: rgb(2, 2, 54);
+    margin-top: 1.5vw;
+    padding-left: 1.5vw;
+}
+
+.labels2{
+    font-size: 1.25vw;
+}
+
+#html{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 4.5vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+#css{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 4vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+#turtle{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 9vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+#ui{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 8vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+#api{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 4vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+#project{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 6vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+#git{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 4vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+
+}
+
+
+@media screen and (max-width: 680px) {
+    #label{
+        font-size: 3vw;
+        width: 50vw;
+        height: 5vw;
+        margin-left:23vw ;
+        margin-bottom: 3vw;
+    }
+    #creative,#professional{
+        font-size: 13vw;
+    }
+    #crafting_exceptional{
+
+        font-size: 4.5vw;
+        line-height: 3.5vw;
+        height: 35vw;
+        width: 70vw;
+        padding-left: 0vw;
+        margin-left: 13vw;
+        line-height: 5vw ;
+
+    }
+    #projects{
+        margin-top: 4vw;
+        margin-left: 16vw;
+        width: 32vw;
+        height: 7vw;
+        font-size: 4vw;
+        border-radius: 7vw;
+        color: white;
+    }
+
+    #contact{
+        margin-top: 4vw;
+        margin-left: 3vw;
+        width: 32vw;
+        height: 7vw;
+        font-size: 4vw;
+        border-radius: 7vw;
+        color: black;
+    }
+    #about-me{
+        font-size: 7vw;
+    }
+    #big-container{
+        height: 240vw;
+        width: 100vw;
+        text-align: center;
+        
+    }
+    #small-container{
+        width: 90vw;
+        height: 120vw;
+        /* margin-right: 7vw; */
+        display: flex;
+        justify-content: flex-start; /* This pushes content to the middle */
+        align-items: center;
+
+    }
+
+    #profile{
+        height: 35vw;
+        width: 35vw;
+        /* margin-right: 20vw; */
+        margin-top: 1vw;
+        margin-left: 27vw;
+
+
+    }
+
+    #text-container{
+        width: 100vw;
+        /* margin-left: 10vw; */
+        margin-top: 5vw;
+    }
+    #p-heading{
+        font-size: 5vw;
+        text-align: left;
+        width: 90vw;
+        /* margin-top: 7vw; */
+    }
+
+    #p-content{
+        font-size: 3.5vw;
+        line-height: 5.5vw;
+        text-align: left;
+        width: 90vw;
+    }
+
+    #SnE{
+        margin-top: 10vw;
+        flex-direction: column;
+        align-items: center;
+        font-size: 7vw;
+    }
+
+    #container {
+      flex-direction: column;
+      margin-bottom: 50vw;
+    }
+    .box {
+        margin-bottom: 5vw;
+        width: 100vw;
+        height: 23vw;
+    }
+    #icon{
+        font-size: 5vw;
+        margin-left: 2vw;
+    }
+    .box-heading{
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    #html{
+        font-size: 2.5vw;
+        margin-left: 4.25vw;
+        height: 3vw;
+        width: 10vw;
+    }
+    #css{
+        font-size: 2.5vw;
+        margin-left: 1vw;
+        height: 3vw;
+        width: 8vw;
+    }
+    #turtle{
+        font-size: 2.5vw;
+        margin-left: 4.25vw;
+        height: 3vw;
+        width: 19vw;
+    }
+    #ui{
+        font-size: 2.5vw;
+        margin-left: 1vw;
+        height: 3vw;
+        width: 18vw;
+    }
+    #api{
+        font-size: 2.5vw;
+        margin-left: 1vw;
+        height: 3vw;
+        width: 9vw;
+    }
+    #project{
+        font-size: 2.5vw;
+        margin-left: 1vw;
+        height: 3vw;
+        width: 12.5vw;
+    }
+    #git{
+        font-size: 2.5vw;
+        margin-left: 4.25vw;
+        height: 3vw;
+        width: 7vw;
+    }
+}
