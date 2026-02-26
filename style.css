@@ -640,7 +640,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     #label{
         font-size: 3vw;
         width: 50vw;
@@ -651,9 +651,9 @@
     #creative,#professional{
         font-size: 13vw;
     }
-    #crafting_exceptional{
+    #main-discription-text{
 
-        font-size: 4.5vw;
+        font-size: 4vw;
         line-height: 3.5vw;
         height: 35vw;
         width: 70vw;
@@ -686,8 +686,9 @@
     }
     #big-container{
         height: 240vw;
-        width: 100vw;
+        width: 102%;
         text-align: center;
+        /* margin-right: -50vw; */
         
     }
     #small-container{
@@ -738,17 +739,25 @@
 
     #container {
       flex-direction: column;
-      margin-bottom: 50vw;
+      /* margin-bottom: 50vw; */
     }
     .box {
-        margin-bottom: 5vw;
-        width: 100vw;
+        /* margin-bottom: 5vw; */
+        width: 90vw;
         height: 23vw;
     }
+    #box-2{
+        height: 25vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+
     #icon{
         font-size: 5vw;
         margin-left: 2vw;
     }
+    
     .box-heading{
         font-size: 4vw;
         margin-left: 2vw;
@@ -759,6 +768,7 @@
         margin-left: 4.25vw;
         height: 3vw;
         width: 10vw;
+        margin-top: 2vw;
     }
     #css{
         font-size: 2.5vw;
@@ -766,13 +776,14 @@
         height: 3vw;
         width: 8vw;
     }
-    #turtle{
+    #botAutomation{
         font-size: 2.5vw;
         margin-left: 4.25vw;
         height: 3vw;
-        width: 19vw;
+        width: 21vw;
+        /* margin-bottom: 10vw; */
     }
-    #ui{
+    #webScaping{
         font-size: 2.5vw;
         margin-left: 1vw;
         height: 3vw;
@@ -790,10 +801,111 @@
         height: 3vw;
         width: 12.5vw;
     }
-    #git{
+    #github{
         font-size: 2.5vw;
         margin-left: 4.25vw;
         height: 3vw;
-        width: 7vw;
+        width: 11vw;
+    }
+    #chatgpt{
+        font-size: 2.5vw;
+        height: 3vw;
+        width: 14vw;
+    }
+    #gemini{
+        font-size: 2.5vw;
+        height: 3vw;
+        width: 20vw;
+    }
+    #projects-section{
+        height: 100vw;
+        width: 100%;
+        margin-top: 15vw;
+    }
+    #featured-projects{
+        font-size: 7vw;
+    }
+    #project-container{
+        width: 90vw;
+        height: 60vw;
+       display: block;
+    }
+    #tracker-amazon-img, #pingpong{
+        width: 90vw;
+        height: 30vw;
+        display: none;
+    }
+    .project-box {
+        width: 103%;
+        height: 32vw;
+        margin-bottom: 5vw;
+    }
+    .project-heading{
+        font-size: 4vw;
+        margin-left: 1vw;
+    }
+    .project-description{
+        font-size: 2.5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        line-height: 3.5vw;
+        width: 80vw;
+        margin-left: 2vw;
+    }
+    #web-scraping{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        height: 3vw;
+        width: 19vw;
+     }
+    #beautiful-soup{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        height: 3vw;
+        width: 20vw;
+     }
+    #smtp{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        height: 3vw;
+        width: 10vw;
+     }
+    #turtle-graphics{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        height: 3vw;
+        width: 20vw;
+     }
+    #gui{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        height: 3vw;
+        width: 30vw;
+     }
+    #oops{
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        height: 3vw;
+        width: 10vw;
+    } 
+    #contact-heading{
+            font-size: 7vw;
+    }
+    #contact-description{
+        font-size: 3vw;
+        line-height: 5vw;
+        width: 80vw;
+        margin-left: -7vw;
+        margin-bottom: 12vw;
+    }
+     #footer{
+        margin-top: 15vw;
+        font-size: 3vw;
     }
 }
