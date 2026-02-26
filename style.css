@@ -32,7 +32,7 @@
     font-weight: 900;
 }
 
-#crafting_exceptional{
+#main-discription-text{
     font-family: "Roboto", sans-serif;
     height: 10vw;
     width: 54vw;
@@ -41,9 +41,10 @@
     margin-top: 2vw;
     font-size: 1.75vw;
     color: grey;
+    margin-bottom: -2vw;
 }
 
-#projects{
+#view-projects{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 1.25vw;
@@ -56,7 +57,7 @@
     margin-left: 37vw;
 }
 
-#projects:hover{
+#view-projects:hover{
     background-color: rgba(242, 122, 78,0.9);
     cursor: pointer;
 }
@@ -96,7 +97,7 @@
     font-size: 4vw;;
     color: rgb(2, 2, 54);
     text-align: center;
-    padding-top: 5vw;
+    padding-top: 8vw;
 }
 
 #small-container{
@@ -159,6 +160,7 @@
     text-align: center;
     margin-top: 8vw;
     width: 100%;
+    margin-bottom: 5vw;
 }
 
 #container {
@@ -167,7 +169,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 100vw;
+  margin-bottom: 3vw;
 }
 
 .box {
@@ -190,7 +192,7 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-#icon   {
+#icon,#python-icon{  
     font-size: 3.5vw;
     padding-left: 1.5vw;
     padding-top: 1.5vw;
@@ -238,7 +240,7 @@
     margin-top: 1.5vw;
     margin-left: 1vw;
 }
-#turtle{
+#botAutomation{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -253,7 +255,7 @@
     margin-top: 1.5vw;
     margin-left: 1vw;
 }
-#ui{
+#webScaping{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -298,14 +300,14 @@
     margin-top: 0.5vw;
     margin-left: 1vw;
 }
-#git{
+#github{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 4vw;
+    width: 5vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
@@ -315,8 +317,340 @@
 
 }
 
+#chatgpt{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 6vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
 
-@media screen and (max-width: 680px) {
+#gemini{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 9vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+
+#projects-section{
+    height: 70vw;
+    width: 100%;
+    background-color: rgb(245, 245, 250);
+    margin-top: 12vw;
+    margin-bottom: 7vw;
+}
+
+#featured-projects{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4vw;;
+    color: rgb(2, 2, 54);
+    text-align: center;
+    margin-top: 8vw;
+    width: 100%;
+    padding-top: 8vw;
+    padding-bottom: 1vw;
+}
+
+#project-container{
+    margin-top: 5vw;
+    display: flex;
+    /* gap: 20vw; */
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
+
+}
+
+.project-box {
+    width: 35vw;
+    height: 41vw;
+    background-color: white;
+    border: rgba(128, 128, 128, 0.05) solid 0.2vw;
+    /* border: 0.2vw; */
+    border-radius: 1.5vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+
+#amazon-price-tracker, #ping-pong-game {
+  text-decoration: none;   /* remove underline */
+  color: inherit;   
+}
+
+#tracker-amazon-img{
+    width: 35vw;
+    height: 20vw;
+    border-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+
+}
+
+#pingpong{
+    width: 35vw;
+    height: 20vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+}
+
+.project-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6vw;
+    color: rgb(2, 2, 54);
+    margin-top: 1.5vw;
+    padding-left: 1.5vw;
+}
+
+.project-description {
+    padding-top: 2vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25vw;
+    color: grey;
+    line-height: 1.75vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+.project-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.labels2{
+    font-size: 1.25vw;
+}
+
+#web-scraping{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 9vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-top: 2.2vw;
+    margin-left: 1.2vw;
+}
+
+#beautiful-soup{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 9vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-top: 1.5vw;
+    margin-left: 0.3vw;
+}
+
+#smtp{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 5vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-top: 1.5vw;
+    margin-left: 0.3vw;
+}
+
+#turtle-graphics{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 9vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.2vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-top: 2vw;
+    margin-left: 1.3vw;
+}
+
+#gui{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 13.5vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-top: 1.5vw;
+    margin-left: 0.3vw;
+}
+
+#oops{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: blanchedalmond;
+    width: 5vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-top: 1.5vw;
+    margin-left: 0.3vw;
+}
+
+#contact-heading{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4vw;;
+    color: rgb(2, 2, 54);
+    text-align: center;
+    margin-top: 8vw;
+    width: 100%;
+    margin-bottom: 2vw;
+}
+
+#contact-description{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25vw;
+    color: grey;
+    font-size: 1.5vw;
+    line-height: 1.75vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 0.5vw;
+    text-align: center;
+    height: 10vw;
+    width: 53vw;
+    margin-left: 7vw;
+}
+
+.contact-buttons{
+    display: flex;
+    justify-content: center;   /* centers the whole group */
+    gap: 50px;                 /* space between buttons */
+    margin-top: -2vw;
+}
+
+.contact-button-class {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500 ;
+    font-size: 1vw;
+    width: 7vw;
+    height: 2.5vw;
+    border: silver solid 1.4px;
+    background-color: transparent;
+    color: black;
+    border-radius: 100px;
+    margin-left: 1.5vw;
+    transition: transform 0.3s ease-out;
+    margin-bottom: 2vw;
+}
+
+.contact-button-class:hover{
+    background-color: rgba(242, 122, 78,0.9) ;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.phone-box {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: "Roboto", sans-serif;
+}
+
+.phone-box.show {
+    display: block;
+}
+
+.email-box {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.email-box.show {
+    display: block;
+}
+
+#footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2vw;
+    color: grey;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    margin-top: 8vw;
+}
+
+
+
+@media screen and (max-width: 768px) {
     #label{
         font-size: 3vw;
         width: 50vw;
@@ -338,7 +672,7 @@
         line-height: 5vw ;
 
     }
-    #projects{
+    #view-projects{
         margin-top: 4vw;
         margin-left: 16vw;
         width: 32vw;
