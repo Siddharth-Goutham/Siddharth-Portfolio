@@ -574,32 +574,20 @@
 
 .contact-buttons{
     display: flex;
-    justify-content: center;   /* centers the whole group */
-    gap: 50px;                 /* space between buttons */
+    justify-content: center;   
+    gap: 50px;                 
     margin-top: -2vw;
 }
 
 .contact-button-class {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500 ;
-    font-size: 1vw;
-    width: 7vw;
-    height: 2.5vw;
-    border: silver solid 1.4px;
-    background-color: transparent;
-    color: black;
-    border-radius: 100px;
-    margin-left: 1.5vw;
     transition: transform 0.3s ease-out;
-    margin-bottom: 2vw;
 }
 
 .contact-button-class:hover{
-    background-color: rgba(242, 122, 78,0.9) ;
+    transform: translateY(-10px);
     cursor: pointer;
-    color: white;
-    border: none;
 }
+
 
 .phone-box {
     display: none;
@@ -637,6 +625,8 @@
 .email-box.show {
     display: block;
 }
+
+
 
 #footer{
     font-family: "Roboto", sans-serif;
