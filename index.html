@@ -14,12 +14,11 @@
         <div id="creative">Creative</div>
         <div id="professional">Professional</div>
 
-    <div id="crafting_exceptional">
-        Crafting exceptional digital experiences through innovative 
-        design and development. Specializing in modern web technologies and user-centered solutions.
+    <div id="main-discription">
+        <p id="main-discription-text">Transforming ideas into exceptional digital experiences through innovation, modern web technologies, and user-focused design</p>
     </div>
 
-    <button id="projects">View Projects</button>
+    <button id="view-projects">View Projects</button>
     <button id="contact">Contact Me</button>
 
     <div id="big-container">
@@ -56,11 +55,11 @@
                 </div>
             </div>
             <div class="box" id="box-2">
-                <div id="icon">🐍</div>
-                <div class="box-heading">Python</div>
+                <div id="python-icon"><img src="icons8-python-48.png" alt="Python Icon"> </div>
+                <div class="box-heading">Python Development</div>
                 <div class="labels2">
-                    <label id="turtle">Turtle Graphics</label>
-                    <label id="ui">UI/UX Design</label>
+                    <label id="botAutomation">Bot Automation</label>
+                    <label id="webScaping">Web Scaping</label>
                     <label id="api">API's</label>
                     <label id="project">Projects</label>
                 </div>
@@ -69,13 +68,75 @@
                  <div id="icon">🛠️</div>
                 <div class="box-heading">Tools & Other</div>
                 <div class="labels2">
-                    <label id="git">GIT</label>
-                    <!-- <label>Yet-to-complete</label> -->
-                    <!-- <label>Yet-to-complete</label> -->
+                    <label id="github">GitHub</label>
+                    <label id="chatgpt">ChatGPT</label>
+                    <label id="gemini">Google Gemini</label>
                     <!-- <label>Yet-to-complete</label> -->
                  </div>
             </div>
         </div>
     </div>
+        <div id="projects-section"> 
+                <div id="featured-projects">Featured Projects</div>
+                <div id="project-container">
+                    <div class="project-box" id="project-1">
+                        <a href="https://www.linkedin.com/posts/siddharth-goutham-03may2007_python-automation-webscraping-activity-7403399549467418624-tjrB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFPUyP4BHGLZcXx54uk7k5v3DvHLD_Jf0t0" id="amazon-price-tracker">
+                        <div ><img src="amazon-price-tracker.png" id="tracker-amazon-img"></div>
+                        <div class="project-heading">Amazon Price Tracker</div>
+                        <div class="project-description">Developed a Python-based web scraping tool
+                             that monitors Amazon product prices and sends automated email 
+                             alerts when the price drops below a specified threshold. 
+                             Utilized BeautifulSoup for data extraction and SMTP for email
+                              notifications.</div>
+                            <div class="labels3">
+                            <label id="web-scraping">Web Scraping</label>
+                            <label id="beautiful-soup">Beautiful Soup</label>
+                            <label id="smtp">SMTP</label>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-box" id="project-2">
+                        <a href="https://github.com/Siddharth-Goutham/Ping_Pong_Game.git" id="ping-pong-game">
+                        <div><img src="imgage-pingpong.jpg" id="pingpong"></div>
+                        <div class="project-heading">Ping Pong Game</div>
+                        <div class="project-description">Built a two-player Ping Pong game using 
+                            Python, implementing real-time ball movement, paddle controls, and 
+                            collision detection. Incorporated score tracking and object-oriented
+                            design to structure the game logic efficiently and enhance gameplay 
+                            experience.</div>
+                        <div class="labels3">
+                            <label id="turtle-graphics">Turtle Graphics</label>
+                            <label id="gui">Graphical User Interface</label>
+                            <label id="oops">OOPs</label>
+                        </div>
+                        </a>
 
-        
+                    </div>
+                </div>
+        </div>
+    <div id="contact-section">
+        <div id="contact-heading">Let's Work Together</div>
+        <div id="contact-description">Have a project in mind or want to discuss opportunities? I'd love to hear from you. Let's create something amazing together.</div>     
+        <div class="contact-buttons">
+            <a href="https://www.linkedin.com/in/siddharth-goutham-03may2007"><button class="contact-button-class" id="linkedin-button">LinkedIn</button></a>
+            <a href="https://github.com/Siddharth-Goutham"><button class="contact-button-class" id="github-button">GitHub</button></a>
+            <button class="contact-button-class" id="phone-no-button" onclick="togglePhone()">Phone No</button>
+            <button class="contact-button-class" id="email-button">Email</button>
+        </div>
+
+    </div>
+
+    <div id="phoneBox" class="phone-box">
+            📞 +91 97415 67865
+    </div>
+
+    <div id="emailBox" class="email-box">
+            📧 siddhartha.nalluraya@gmail.com
+    </div>
+
+
+    <div id="footer">
+        <div id="footer-content">© 2026 Siddharth Goutham. All rights reserved.</div>
+    </div>
+    <script src="index.js"></script>
+</body>
