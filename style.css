@@ -236,7 +236,7 @@ body {
     /* cursor: none; */
 }
 
-#html{
+#fd_skill_1{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -252,7 +252,7 @@ body {
     margin-left: 1vw;
     cursor: none;
 }
-#css{
+#fd_skill_2{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -268,7 +268,7 @@ body {
     margin-left: 1vw;
     cursor: none;
 }
-#botAutomation{
+#python_skill_1{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -284,7 +284,7 @@ body {
     margin-left: 1vw;
     cursor: none;
 }
-#webScaping{
+#python_skill_2{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -301,14 +301,14 @@ body {
     cursor: none;
 
 }
-#api{
+#python_skill_3{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 4vw;
+    width: 8vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
@@ -318,7 +318,7 @@ body {
     cursor: none;
 
 }
-#project{
+#python_skill_4{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -335,7 +335,7 @@ body {
     cursor: none;
 
 }
-#github{
+#to_skill_1{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -353,7 +353,7 @@ body {
 
 }
 
-#chatgpt{
+#to_skill_2{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -370,7 +370,7 @@ body {
     cursor: none;
 }
 
-#gemini{
+#to_skill_3{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
@@ -420,7 +420,7 @@ body {
 
 .project-box {
     width: 35vw;
-    height: 41vw;
+    height: 47vw;
     background-color: white;
     border: rgba(128, 128, 128, 0.05) solid 0.2vw;
     /* border: 0.2vw; */
@@ -431,12 +431,12 @@ body {
    
 }
 
-#amazon-price-tracker, #ping-pong-game {
+#project1_link, #project2_link {
   text-decoration: none;   /* remove underline */
   color: inherit;   
 }
 
-#tracker-amazon-img{
+#project1_img{
     width: 35vw;
     height: 20vw;
     border-top-left-radius: 1.5vw;
@@ -444,7 +444,7 @@ body {
 
 }
 
-#pingpong{
+#project2_img{
     width: 35vw;
     height: 20vw;
     border-top-left-radius: 1.5vw;
@@ -468,6 +468,7 @@ body {
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     margin-top: 0.5vw;
+    text-align: justify;
 }
 
 /* .project-box:hover {
@@ -485,14 +486,14 @@ body {
     font-size: 1.25vw;
 }
 
-#web-scraping{
+#project1_skill_1{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 9vw;
+    width: 4.5vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
@@ -504,14 +505,14 @@ body {
     cursor: none;
 }
 
-#beautiful-soup{
+#project1_skill_2{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 9vw;
+    width: 8vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
@@ -523,14 +524,14 @@ body {
     cursor: none;
 }
 
-#smtp{
+#project1_skill_3{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 5vw;
+    width: 8vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
@@ -542,14 +543,14 @@ body {
     cursor: none;
 }
 
-#turtle-graphics{
+#project2_skill_1{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 9vw;
+    width: 8vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.2vw;
@@ -561,14 +562,14 @@ body {
     cursor: none;
 }
 
-#gui{
+#project2_skill_2{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 13.5vw;
+    width: 11vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
@@ -580,14 +581,14 @@ body {
     cursor: none;
 }
 
-#oops{
+#project2_skill_3{
     display: inline-block;
     font-size: 1.1vw;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: blanchedalmond;
-    width: 5vw;
+    width: 4.5vw;
     height: 1.5vw;
     border-radius: 50px;
     padding-top: 0.15vw;
